@@ -31,7 +31,7 @@ This project features user login with OTP verification (mocked), a timed quiz, a
 1. Clone or download the repository:
 
 ```bash
-git clone https://github.com/your-username/js-quiz-portal.git
+git clone https://github.com/Narasimhamanam/CodTechTask1.git
 cd js-quiz-portal
 
 ---
