@@ -5,27 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JS Quiz Portal</title>
   <style>
-    @media (max-width: 480px) {
+   @media (max-width: 768px) {
   header h1 {
-    font-size: 1.8rem;
-    padding-right: 40px;
+    font-size: 1.6rem;
+    padding-right: 0;
+    line-height: 1.2;
   }
+
   .timer {
     position: static;
     float: none;
-    margin-top: 10px;
     display: block;
+    margin: 10px auto;
+    font-size: 1.1rem;
     text-align: center;
-    font-size: 1.2rem;
-    right: auto;
   }
-  header, .login-container, .quiz-container, .score-container, .review-container {
-    padding: 20px 15px 25px;
+
+  header, 
+  .login-container, 
+  .quiz-container, 
+  .score-container, 
+  .review-container {
+    padding: 20px 15px;
     width: 95%;
+    margin: 20px auto;
   }
+
+  input {
+    padding: 12px 14px;
+    font-size: 1rem;
+  }
+
   button {
     width: 100%;
     margin: 10px 0;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .question-box {
+    margin-bottom: 25px;
+  }
+
+  .option {
+    font-size: 1rem;
+    padding: 12px 16px;
+  }
+
+  .otp-timer {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #review-content .question-box {
+    padding: 15px;
+  }
+
+  h2, h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #score {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #review-content mark {
+    font-size: 0.95rem;
+  }
+
+  #review-content p {
+    font-size: 0.95rem;
   }
 }
 
